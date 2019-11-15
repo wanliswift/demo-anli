@@ -1,0 +1,256 @@
+*{
+    font-size: 20px;
+}
+ul li{
+margin:0;
+padding: 0;
+}
+ul{
+    padding: 0;
+}
+
+.caidan li{
+    list-style: none;
+    float: left;
+    font-size: 0.7rem;
+    padding: 0 0.25rem;
+}
+.caidan li+li{
+    border-left: 1px solid #333;
+}
+
+.top{
+    background-color: #fafafa;
+}
+.logo{
+     height: 5rem;
+     line-height: 5rem;
+
+}
+.logo img{
+    height: 50%;
+}
+.search img,.menu img{
+    width: 80%;
+}
+.img img{
+    width: 95%;
+}
+.msg{
+    margin-left: 0.45rem;
+}
+.info ul>li{
+    float: left;
+    list-style: none;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.info{
+    width: 100%;
+    height:2.6rem;
+    line-height: 2.6rem;
+    background-color: #193e64;
+    position: relative;
+    left: 0.75rem;
+}
+
+.redian{
+    border-bottom: 1px solid #ccc;
+
+}
+.redian1{
+    font-size: 0.9rem;
+    margin-bottom: 0.45rem;
+    padding-top: 0.5rem;
+}
+.redianimg img{
+    width: 100%;
+}
+.redian2{
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    color: #6c6969;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+.redian3{
+    font-size: 0.6rem;
+    line-height: 1.6rem;
+    color: #a5a5a5;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    border-bottom: 1px solid #ccc;
+
+}
+.news{
+    color: #666666;
+    line-height: 1.6rem;
+    padding-top:1rem ;
+    padding-left: 1rem;
+}
+.news li{
+    font-size: 0.9rem;
+}
+.chakan{
+    color: #666666;
+    border-bottom: solid 1px #ff0000;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.img{
+    border: 1px #ccc solid;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
+}
+.imgmain{
+    padding:0 0.5rem;
+}
+.img div+div{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding-left: 0;
+    color: #000;
+}
+.btm div{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    color: #369;
+}
+.btm{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.beian{
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    color: #666666;
+    border-top: solid 1px #ecebeb;
+}
+.beian span{
+    color:#08c
+}
+.inp{
+    border: 1px solid #ccc;
+    background-image: url(images/small.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: relative;
+    bottom: 1rem;
+}
+.ulul{
+    display: none;
+}
+.ul2>li{
+    float: left;
+    list-style: none;
+}
+.ul2 div{
+    text-align: center;
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    display: none;
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .news li{
+        font-size: 0.6rem;
+    }
+    .news{
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .newstotal{
+        border-left: 1px solid #666;
+    }
+    .redian2{
+        color: #323131;
+        line-height: 1.3rem;
+        
+    }
+    .redian3{
+        line-height: 1rem;
+        border-bottom: none;
+
+    }
+    .redianimg img{
+        width: 108%;
+    }
+    .chakan{
+        font-size: 0.6rem;
+        position: relative;
+        left: 30rem;
+        bottom: -1rem;
+    }
+    .total{
+        border:1px solid #ccc;
+        margin: 1rem;
+        width: 100%;
+        position: relative;
+        left: 0.75rem;
+    }
+   .img img{
+       width: 100%;
+   }
+   .imgmain div{
+       padding: 0;
+       margin: 0;
+       
+   }
+   .img{
+        width: 95%;
+   }
+   .imgmain{
+       padding: 0;
+   }
+   .img div+div{
+    font-size: 0.8rem;
+    line-height: 2rem;
+   }
+   .foot div,.foot span{
+       font-size: 0.6rem;
+   }
+   .btm{
+       padding:1.5rem 2rem;
+   }
+   .beian{
+       text-align: center;
+   }
+   
+}
+@media screen and (min-width:1024px){
+    .caidan li{
+        padding: 0 1rem;
+    }
+    .caidan{
+        padding-left: 4rem;
+    }
+    .news{
+        line-height: 1rem;
+    }
+    /* .chakan{
+        position: absolute;
+        bottom: -1.5rem;
+        left: 42rem;
+        padding-top: 1rem;
+    } */
+    .total{
+        padding-bottom: 1rem;
+    }
+    .redian3{
+        border-bottom: none;
+    }
+    .news{
+        padding: 0;
+    }
+    .img{
+        width: 95%;
+        margin:0.75rem;
+        text-align: center;
+    }
+    .img img{
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+}
